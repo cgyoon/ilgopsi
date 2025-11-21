@@ -116,7 +116,7 @@ body::-webkit-scrollbar {
     flex-direction: column;
     gap: 20px;
 	will-change: transform;
-	animation: iscrolling 5s linear infinite;
+	animation: iscrolling 10s linear infinite;
 }
 
 .icard {
@@ -126,7 +126,7 @@ body::-webkit-scrollbar {
 }
 
 .info .icard {
-	min-height: 640px;
+	min-height: 700px;
 } 
 
 .info2 .icard {
@@ -147,7 +147,7 @@ body::-webkit-scrollbar {
 	  transform: translateY(0);
 	}
 	100% {
-	  transform: translateY(-100%);
+	  transform: translateY(-200%);
 	}
 }
 
