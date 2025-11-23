@@ -24,6 +24,9 @@ body::-webkit-scrollbar {
 	display: none;
 }
 
+video {
+	display: none;
+}
 .name {
 	position: absolute;
 	right: 0;
@@ -32,6 +35,10 @@ body::-webkit-scrollbar {
 }
 
 .namemobile {
+	display: none;
+}
+
+.logo {
 	display: none;
 }
 
@@ -64,7 +71,7 @@ body::-webkit-scrollbar {
 	min-height: 110px;
 }
 
-.logo {
+.seven {
 	width: 260px;
 	border-radius: 24px;
 	justify-content: center;
@@ -153,6 +160,14 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 1000px) {
 
+	video {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: auto;
+		z-index: -1;
+	}
+
 	.desktop {
 		display: none;
 	}
@@ -176,6 +191,15 @@ body::-webkit-scrollbar {
 		top: 50%;
 		transform: translateY(-50%);
 		padding: 10px;
+		z-index: 2;
+	}
+
+	.logo {
+		display: block;
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		width: 100px;
 	}
 
 	.carousel {
@@ -190,7 +214,7 @@ body::-webkit-scrollbar {
 		min-height: 110px;
 	}
 
-	.logo {
+	.seven {
 		width: 110px;
 		border-radius: 24px;
 		justify-content: center;
@@ -212,7 +236,14 @@ body::-webkit-scrollbar {
 	}
 }
 
-@media screen and (max-width: 1000px) and (max-aspect-ratio: 1/2) {
+@media screen and (max-width: 1000px) and (max-aspect-ratio: 9/16) {
+
+	video {
+		position: absolute;
+		width: auto;
+		height: 100%;
+		z-index: -1;
+	}
 
 	.mobile {
 		position: absolute;
