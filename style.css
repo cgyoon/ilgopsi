@@ -29,7 +29,7 @@ video {
 }
 .name {
 	position: absolute;
-	right: 0;
+	left: 0;
 	width: 200px;
 	margin: 20px;
 }
