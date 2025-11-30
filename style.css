@@ -39,7 +39,10 @@ video {
 }
 
 .logo {
-	display: none;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 70px;
 }
 
 .carousel {
@@ -180,9 +183,11 @@ video {
 		width: 100%;
 		height: auto;
 		display: block;
+		z-index: -1;
 	}
+
 	.name {
-		width: 37.5%;
+		width: 35%;
 	}
 
 	.namemobile {
@@ -198,7 +203,7 @@ video {
 		display: block;
 		position: absolute;
 		top: 20px;
-		left: 20px;
+		right: 20px;
 		width: 50px;
 	}
 
