@@ -246,7 +246,7 @@ video {
 	video {
 		position: absolute;
 		width: auto;
-		height: 100svh;
+		height: 100%;
 		z-index: -1;
 	}
 
