@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.gothic {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+body { 
+  	font-family: "Gothic A1", sans-serif;
+  	font-weight: 900;
+	-ms-overflow-style: none; 
+	background-color: red;
+} 
+
+body::-webkit-scrollbar { 
+	display: none; 
+} 
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+article {
+	text-align: center;
+	width: 100%;
+	height: 100svh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+figcaption {
+	margin-top: 16px;
+}
+img {
+	width: 50%;
+}
+@media screen and (max-width: 1000px) {
+
+
+}
