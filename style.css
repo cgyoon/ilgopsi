@@ -257,7 +257,7 @@ th {
 
 td {
 	width: calc(100vw / 7);
-	height: calc((100vh - 75px) / 5);
+	height: calc((100svh - 75px) / 5);
 	font-weight: bold;
 }
 
